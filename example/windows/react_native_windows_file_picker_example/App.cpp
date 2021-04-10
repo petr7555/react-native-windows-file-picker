@@ -40,8 +40,6 @@ App::App() noexcept
 
     PackageProviders().Append(make<ReactPackageProvider>()); // Includes all modules in this project
 
-    PackageProviders().Append(winrt::react_native_windows_file_picker::ReactPackageProvider());
-
     InitializeComponent();
 }
 

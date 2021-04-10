@@ -1,4 +1,7 @@
-namespace react_native_windows_file_picker
+// Copyright (c) Microsoft Corporation. All rights reserved.
+// Licensed under the MIT License.
+
+namespace NativeModuleSample
 {
     [webhosthidden]
     [default_interface]

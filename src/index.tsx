@@ -1,9 +1,9 @@
 import { NativeModules } from 'react-native';
 
-type FilePickerType = {
-  pickFile(path: Promise<string>): Promise<number>;
+type NativeModuleSampleType = {
+  add(a: number, b: number): number;
 };
 
-const { FilePicker } = NativeModules;
+const { NativeModuleSample } = NativeModules;
 
-export default FilePicker as FilePickerType;
+export default NativeModuleSample as NativeModuleSampleType;
