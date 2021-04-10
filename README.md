@@ -11,11 +11,11 @@ npm install react-native-windows-file-picker
 ## Usage
 
 ```js
-import WindowsFilePicker from "react-native-windows-file-picker";
+import FilePicker from "react-native-windows-file-picker";
 
 // ...
 
-const result = await WindowsFilePicker.multiply(3, 7);
+const result = await FilePicker.multiply(3, 7);
 ```
 
 ## Contributing

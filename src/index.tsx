@@ -1,9 +1,9 @@
 import { NativeModules } from 'react-native';
 
-type WindowsFilePickerType = {
-  multiply(a: number, b: number): Promise<number>;
+type FilePickerType = {
+  pickFile(path: Promise<string>): Promise<number>;
 };
 
-const { WindowsFilePicker } = NativeModules;
+const { FilePicker } = NativeModules;
 
-export default WindowsFilePicker as WindowsFilePickerType;
+export default FilePicker as FilePickerType;

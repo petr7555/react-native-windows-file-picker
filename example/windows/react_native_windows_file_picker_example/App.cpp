@@ -5,8 +5,8 @@
 #include "AutolinkedNativeModules.g.h"
 #include "ReactPackageProvider.h"
 
-using namespace winrt::react-native-windows-file-picker-example;
-using namespace winrt::react-native-windows-file-picker-example::implementation;
+using namespace winrt::react_native_windows_file_picker_example;
+using namespace winrt::react_native_windows_file_picker_example::implementation;
 using namespace winrt;
 using namespace Windows::UI::Xaml;
 using namespace Windows::UI::Xaml::Controls;
@@ -40,6 +40,8 @@ App::App() noexcept
 
     PackageProviders().Append(make<ReactPackageProvider>()); // Includes all modules in this project
 
+    PackageProviders().Append(winrt::react_native_windows_file_picker::ReactPackageProvider());
+
     InitializeComponent();
 }
 
@@ -53,7 +55,7 @@ void App::OnLaunched(activation::LaunchActivatedEventArgs const& e)
     super::OnLaunched(e);
 
     Frame rootFrame = Window::Current().Content().as<Frame>();
-    rootFrame.Navigate(xaml_typename<react-native-windows-file-picker-example::MainPage>(), box_value(e.Arguments()));
+    rootFrame.Navigate(xaml_typename<react_native_windows_file_picker_example::MainPage>(), box_value(e.Arguments()));
 }
 
 /// <summary>

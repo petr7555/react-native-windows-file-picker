@@ -1,4 +1,4 @@
-namespace react-native-windows-file-picker-example
+namespace react_native_windows_file_picker_example
 {
     [default_interface]
     runtimeclass MainPage : Windows.UI.Xaml.Controls.Page

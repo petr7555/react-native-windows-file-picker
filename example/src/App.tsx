@@ -1,13 +1,13 @@
 import * as React from 'react';
 
 import { StyleSheet, View, Text } from 'react-native';
-import WindowsFilePicker from 'react-native-windows-file-picker';
+import FilePicker from 'react-native-windows-file-picker';
 
 export default function App() {
   const [result, setResult] = React.useState<number | undefined>();
 
   React.useEffect(() => {
-    WindowsFilePicker.multiply(3, 7).then(setResult);
+    FilePicker.pickFile(Promise.resolve('ahoj')).then(setResult);
   }, []);
 
   return (

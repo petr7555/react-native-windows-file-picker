@@ -4,7 +4,7 @@
 
 namespace activation = winrt::Windows::ApplicationModel::Activation;
 
-namespace winrt::react-native-windows-file-picker-example::implementation
+namespace winrt::react_native_windows_file_picker_example::implementation
 {
     struct App : AppT<App>
     {
@@ -15,4 +15,4 @@ namespace winrt::react-native-windows-file-picker-example::implementation
       private:
         using super = AppT<App>;
     };
-} // namespace winrt::react-native-windows-file-picker-example::implementation
+} // namespace winrt::react_native_windows_file_picker_example::implementation

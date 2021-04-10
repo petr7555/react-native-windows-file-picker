@@ -2,7 +2,7 @@
 #include "MainPage.g.h"
 #include <winrt/Microsoft.ReactNative.h>
 
-namespace winrt::react-native-windows-file-picker-example::implementation
+namespace winrt::react_native_windows_file_picker_example::implementation
 {
     struct MainPage : MainPageT<MainPage>
     {
@@ -10,7 +10,7 @@ namespace winrt::react-native-windows-file-picker-example::implementation
     };
 }
 
-namespace winrt::react-native-windows-file-picker-example::factory_implementation
+namespace winrt::react_native_windows_file_picker_example::factory_implementation
 {
     struct MainPage : MainPageT<MainPage, implementation::MainPage>
     {

@@ -1,5 +1,5 @@
 {
-  "name": "react-native-windows-file-picker",
+  "name": "react_native_windows_file_picker",
   "version": "0.1.0",
   "description": "File picker for Windows",
   "main": "lib\\commonjs\\index.js",
@@ -144,5 +144,8 @@
       "module",
       "typescript"
     ]
+  },
+  "dependencies": {
+    "react-native-windows": "^0.63.26"
   }
 }

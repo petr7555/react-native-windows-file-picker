@@ -9,7 +9,7 @@
 using namespace winrt;
 using namespace Windows::UI::Xaml;
 
-namespace winrt::react-native-windows-file-picker-example::implementation
+namespace winrt::react_native_windows_file_picker_example::implementation
 {
     MainPage::MainPage()
     {
